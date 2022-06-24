@@ -1,0 +1,104 @@
+@font-face { 
+    font-family: "OfficeCodePro"; 
+    src: url("fonts/OfficeCodePro-Light.otf"); 
+}
+
+@font-face {
+    font-family: "PoppinsLight";
+    src: url("fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "LibreBaskerville";
+    src: url("fonts/LibreBaskerville-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #AEBEEC;
+}
+
+/* Style the tab */
+.tab-container {
+    width: 100vw;
+}
+
+.tab {
+    overflow: hidden;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.tab:nth-child(2) {
+    width: 50vw;
+    float: left;
+    display: inline;
+}
+
+.tab:nth-child(3) {
+    width: 50vw;
+    float: left;
+    display: inline;
+}
+  
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 12px;
+    transition: 0.3s;
+    font-family: OfficeCodePro;
+    font-size: 0.9rem;
+}
+  
+/* Change background color of buttons on hover */
+.tab #intro-button:hover {
+    color: #0000ff;
+}
+
+.tab #experiment-button:hover{
+    color: #ff0000;
+}
+
+.tab #concepts-button:hover{
+    color: #00ff00;
+}
+  
+/* Create an active/current tablink class */
+.tab #intro-button.active {
+   color: #0000ff;
+}
+
+.tab #experiment-button.active {
+    color: #ff0000;
+}
+
+.tab #concepts-button.active {
+    color: #00ff00;
+ }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  .shadow {
+    -moz-box-shadow:    inset 3px 3px 10px #000000, inset -3px -3px 10px #ffffff;
+    -webkit-box-shadow: inset 3px 3px 10px #000000, inset -3px -3px 10px #ffffff;
+    box-shadow:         inset 3px 3px 10px #000000, inset -3px -3px 10px #ffffff;
+ }
+
+ p {
+     font-family: PoppinsBold;
+ }

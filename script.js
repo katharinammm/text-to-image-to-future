@@ -75,14 +75,6 @@ $(".tablinks").on("click", function() {
 // }
 
 
-$( ".data-img" ).hover(
-  function() {
-    $( this ).css( "display", "none" );
-  }, function() {
-    $( this ).css( "display", "block" );
-  }
-);
-
 
 
 

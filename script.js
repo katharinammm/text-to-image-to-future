@@ -1,3 +1,5 @@
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {alert('This website currently has a bug in Safari. Please use any other browser.');}
+
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
